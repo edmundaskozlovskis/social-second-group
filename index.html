@@ -1,250 +1,64 @@
 <!DOCTYPE html>
-<html lang="lt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Website</title>
+    <link rel="shortcut icon" href="bath-solid.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="style.css">
-    <title>Social App</title>
 </head>
 <body>
-    <div class="nav">
-        <div class="left-icons">
-            <a class="logo-link" href="#">
-                <i class="fa fa-home w3-margin-right"></i> Logo
-            </a>
-            <a href="#">
-                <i class="fa fa-globe" aria-hidden="true"></i>
-            </a>
-            <a href="#">
-                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-            </a>
-            <a href="#">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-            </a>
-            <a href="#">
-                <i class="fa fa-bell-o" aria-hidden="true"></i>
-                <span class="bell-count">3</span>
-            </a>
+    <div class="site-navigation">
+        <div>
+            <a class="logo-link" href=""><i class="fa fa-home" aria-hidden="true"></i>Logo</a>
+            <a href=""><i class="fa fa-globe"></i></a>
+            <a href=""><i class="fa fa-user"></i></a>
+            <a href=""><i class="fa fa-envelope"></i></a>
+            <a href=""><i class="fa fa-bell"></i><span>3</span></a>
         </div>
-        <div class="right-icons">
-            <a href="#">
-                <img 
-                    src="https://www.w3schools.com/w3images/avatar2.png" 
-                    alt="Avataras" 
-                    width="23" 
-                    height="23">
+        <div class="avatar">
+            <a href="">
+                <img width="23" height="23" src="https://www.w3schools.com/w3images/avatar2.png" alt="My acount photo">
             </a>
         </div>
     </div>
-    <div class="container main">
-        <div class="row">
-            <div class="col-3">
-                <div class="card">
-                    <div class="col-container">
-                        <h4>My Profile</h4>
-                        <p class="image">
-                            <img 
-                                src="https://www.w3schools.com/w3images/avatar3.png" 
-                                alt="Avataras"
-                                width="106"
-                                height="106"
-                                style="border-radius: 50%;">
-                        </p>
-                        <hr>
-                        <p>
-                            <i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Designer, UI
-                        </p>
-                        <p>
-                            <i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i>  London, UK
-                        </p>
-                        <p>
-                            <i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> April 1, 1988
-                        </p>
-                    </div>
-                </div>
-                <br>
-                <div class="card categories-btn">
-                    <button style="text-align: start;">
-                        <i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> My Group
-                    </button>
-                    <button style="text-align: start;"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events</button>
-                    <button style="text-align: start;"><i class="fa fa-users fa-fw w3-margin-right"></i> My Photos</button>
-                </div>
-                <br>
-                <div class="card categories-tag">
-                    <div class="col-container">
-                        <p>Interests</p>
-                        <p>
-                            <span class="w3-tag w3-small w3-theme-11">News</span>
-                            <span class="w3-tag w3-small w3-theme-10">W3Schools</span>
-                            <span class="w3-tag w3-small w3-theme-9">Labels</span>
-                            <span class="w3-tag w3-small w3-theme-8">Games</span>
-                            <span class="w3-tag w3-small w3-theme-7">Friends</span>
-                            <span class="w3-tag w3-small w3-theme-6">Games</span>
-                            <span class="w3-tag w3-small w3-theme-5">Friends</span>
-                            <span class="w3-tag w3-small w3-theme-4">Food</span>
-                            <span class="w3-tag w3-small w3-theme-3">Design</span>
-                            <span class="w3-tag w3-small w3-theme-2">Art</span>
-                            <span class="w3-tag w3-small w3-theme-l">Photos</span>
-                          </p>
-                    </div>
-                </div>
-                <br>
-                <div class="card alert-box">
-                    <div class="col-container">
-                        <span>
-                            <i class="fa fa-remove"></i>
-                        </span>
-                        <p>
-                            <strong>Hey!</strong>
-                        </p>
-                        <p>People are looking at your profile. Find out who.</p>
-                    </div>
+    <div class="container">
+        <div class="col-1">
+            <div class="card">
+                <div class="col-container">
+                    <h4>My Profile</h4>
+                    <p>
+                        <img width="106" height="106" src="images/avatar3.png" alt="Avatar picture">
+                    </p>
+                    <hr>
+                    <p>
+                        <i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>  Designer, UI
+                    </p>
+                    <p>
+                        <i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>  Designer, UI
+                    </p>
+                    <p>
+                        <i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>  Designer, UI
+                    </p>
                 </div>
             </div>
-            <div class="col-7">
-                <div class="card">
-                    <div class="col-container">
-                        <h6>Social Media template by w3.css</h6>
-                        <form action="">
-                            <input 
-                            placeholder="Status: Feeling Blue" 
-                            type="text">
-                            <input type="button" value="Post">
-                        </form>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="col-container">
-                        <div class="block-header">
-                            <div class="block-header-name">
-                                <img 
-                                width="60"
-                                height="60"
-                                src="https://www.w3schools.com/w3images/avatar2.png" 
-                                alt="Profile image">
-                                <h4>John Doe</h4>
-                            </div>
-                            <span>1 min</span>
-                        </div>
-                        <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <div class="block-images">
-                            <img width="360" height="240" src="https://www.w3schools.com/w3images/lights.jpg" alt="Profile first image">
-                            <img width="360" height="240" src="https://www.w3schools.com/w3images/nature.jpg" alt="Profile seacond image">
-                        </div>
-                        <div class="block-buttons">
-                            <button><i class="fa fa-thumbs-up"></i> Like</button>
-                            <button><i class="fa fa-comment"></i> Comment</button>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="col-container">
-                        <div class="block-header">
-                            <div class="block-header-name">
-                                <img 
-                                width="60"
-                                height="60"
-                                src="https://www.w3schools.com/w3images/avatar5.png" 
-                                alt="Profile image">
-                                <h4>John Doe</h4>
-                            </div>
-                            <span>16 min</span>
-                        </div>
-                        <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <div class="block-buttons">
-                            <button><i class="fa fa-thumbs-up"></i> Like</button>
-                            <button><i class="fa fa-comment"></i> Comment</button>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="col-container">
-                        <div class="block-header">
-                            <div class="block-header-name">
-                                <img 
-                                width="60"
-                                height="60"
-                                src="https://www.w3schools.com/w3images/avatar6.png" 
-                                alt="Profile image">
-                                <h4>Angie Jane</h4>
-                            </div>
-                            <span>1 min</span>
-                        </div>
-                        <hr>
-                        <p>Have you seen this?</p>
-                        <div class="">
-                            <img 
-                                width="734" 
-                                height="490" 
-                                src="https://www.w3schools.com/w3images/nature.jpg" 
-                                alt="Profile first image"
-                            >
-                            
-                        </div>
-                        <div class="block-buttons">
-                            <button><i class="fa fa-thumbs-up"></i> Like</button>
-                            <button><i class="fa fa-comment"></i> Comment</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="card">
-                    <div class="col-container">
-                        <p>Upcoming Events:</p>
-                        <img 
-                            src="https://www.w3schools.com/w3images/forest.jpg" 
-                            alt="Upcoming Events Photo"
-                            width="196"
-                            height="130">
-                        <p><strong>Holiday</strong></p>
-                        <p>Friday 15:00</p>
-                        <button>Info</button>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="col-container">
-                        <p>Friend Request</p>
-                        <img 
-                            src="https://www.w3schools.com/w3images/avatar6.png" 
-                            alt="Upcoming Events Photo"
-                            width="98"
-                            height="98">
-                        <p>Jane Doe</p>
-                        <div class="friend-request-buttons-row">
-                            <button class="btn-check">
-                                <i class="fa fa-check"></i>
-                            </button>
-                            <button class="btn-remove">
-                                <i class="fa fa-remove"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="col-container">
-                        <p style="padding: 15px 0px;">ADS</p>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="col-container">
-                        <p style="padding: 15px 0px; font-size: 30px;">
-                            <i class="fa fa-bug w3-xxlarge"></i>
-                        </p>
-                    </div>
-                </div>
-            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto commodi autem a, assumenda quo, amet deleniti ipsam fugiat eveniet, ipsum consequuntur illum? Aperiam error, nulla ea labore quod esse nesciunt.
+            Quae accusantium ipsum mollitia doloremque! Corporis ab eveniet laudantium mollitia sint similique eius repudiandae quidem deserunt libero omnis repellat rem, repellendus voluptates doloribus voluptatum a praesentium, accusantium quisquam vitae error!
+            Possimus consequuntur, eos eveniet deleniti tempore perferendis, doloremque molestias, sint expedita voluptas beatae exercitationem. Illo blanditiis excepturi delectus aperiam obcaecati necessitatibus nisi culpa similique adipisci eius voluptatum odit, dignissimos laudantium!
+        </div>
+        <div class="col-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsa iusto temporibus in laborum aliquid delectus corrupti id molestiae eos iure cupiditate, fugit deserunt earum odit vero dicta animi consectetur.
+            Porro at vero tempore commodi ipsum veritatis ad iure maiores autem consectetur accusamus quasi omnis doloribus repellendus sunt laudantium itaque, ratione reprehenderit nihil facere obcaecati, inventore consequuntur nam impedit. Sunt.
+            Labore libero, illum praesentium quos sit fugiat. Incidunt perferendis, sunt similique animi, nihil culpa aperiam ipsa eos atque, numquam voluptatum fuga tenetur repellat rerum eligendi non? Iste pariatur explicabo consequatur!
+            Voluptas nam rem pariatur quas quam vel beatae minus porro amet, asperiores doloremque excepturi neque maxime ipsa accusamus magni voluptates vitae repellat quasi. Deserunt quae omnis quaerat ipsum molestias voluptate.
+            Rem adipisci aut similique ut, ducimus fuga qui sunt, esse soluta corporis optio et tenetur culpa aperiam quos officiis deserunt iste sequi. Officiis, amet accusantium expedita voluptatibus asperiores error tenetur.
+            Voluptas nam rem pariatur quas quam vel beatae minus porro amet, asperiores doloremque excepturi neque maxime ipsa accusamus magni voluptates vitae repellat quasi. Deserunt quae omnis quaerat ipsum molestias voluptate.
+            Rem adipisci aut similique ut, ducimus fuga qui sunt, esse soluta corporis optio et tenetur culpa aperiam quos officiis deserunt iste sequi. Officiis, amet accusantium expedita voluptatibus asperiores error tenetur.
+        </div>
+        <div class="col-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto corporis est ex odio dolor, molestias vel rerum harum. Quo veritatis molestiae distinctio laudantium dicta, soluta sed est tempora deleniti harum!
+            Rem odit natus saepe iure, reprehenderit sapiente porro unde, molestias aliquam optio ut. Deserunt officiis esse in. Facere omnis cumque natus nemo, quia placeat ullam ratione dolores autem consectetur veritatis.
         </div>
     </div>
 </body>
