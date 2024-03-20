@@ -83,3 +83,11 @@ h5 {
     margin-right: 16px;
     color: #607d8b;
 }
+.accordion button {
+    max-width: 100%;
+    width: 100%;
+    color: #ffffff;
+    background-color: #7d97a5;
+    padding: 8px 16px;
+    border: none;
+}
